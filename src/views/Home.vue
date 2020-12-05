@@ -4,7 +4,7 @@
       <b-row class="vh-100" align-v="center">
         <b-col align-h="left">
           <vue-typer
-            :text="['Rashi Dhar']"
+            :text="[$t('home.name')]"
             :repeat="Infinity"
             :shuffle="false"
             initial-action="typing"
@@ -17,9 +17,10 @@
             caret-animation="smooth"
           ></vue-typer>
           <p class="subtitle">
-          Web Developer
+            {{ $t("home.role") }}
           </p>
-          <b-button pill variant="outline-secondary">VIEW MY WORK</b-button>
+          <b-button pill variant="outline-dark_hue">
+            {{ $t("home.work-button") }}</b-button>
         </b-col>
       </b-row>
     </b-container>
@@ -51,7 +52,7 @@ export default {
   padding-left: 10vw;
 }
 .vue-typer {
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 4rem;
   text-align: center;
   font-weight: bolder;
