@@ -1,5 +1,51 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+<h1>ABOUT</h1>
 </template>
+
+<script>
+
+export default {
+  name: "Home",
+  props: {},
+  components: {
+  },
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.subtitle {
+  font-size: 2rem;
+}
+.hero {
+  padding: 0;
+  margin: 0;
+  background-color: #f4ece6;
+  padding-left: 10vw;
+}
+.vue-typer {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bolder;
+}
+.full-height {
+  height: 100vh;
+}
+.rotate {
+  width: 2rem;
+  height: 2rem;
+  background-color: blue;
+  animation: rotate 3s infinite linear both;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+</style>
