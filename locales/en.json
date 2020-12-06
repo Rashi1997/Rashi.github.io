@@ -1,15 +1,21 @@
 {
+  "social": {
+    "github": "https://github.com/Rashi1997",
+    "linkedin": "https://www.linkedin.com/in/rashidhar/",
+    "facebook": "https://www.facebook.com/rashi.dhar.71/",
+    "instagram": "https://www.instagram.com/dhar.rashi/"
+  },
   "home": {
     "first-name": "Rashi",
     "last-name": "Dhar",
     "name": "Rashi Dhar",
-    "role": "Web Devloper",
+    "role": "Web Developer",
     "work-button": "VIEW MY WORK"
   },
   "about": {
     "title": "Hello",
     "subtitle": "Here is who I am and what I do!",
-    "carousel-slide-1":{
+    "carousel-slide-1": {
       "title": "Corporates/Clients",
       "ccv": {
         "link": "https://ccv.brown.edu/",
@@ -33,32 +39,52 @@
       }
     },
 
-    "carousel-slide-2":{
+    "carousel-slide-2": {
       "title": "Skills",
-      "ccv": {
-        "link": "https://ccv.brown.edu/",
-        "alt": "ccv-logo"
+      "javascript": {
+        "link": "https://www.javascript.com/",
+        "alt": "javascript-logo"
       },
-      "brown": {
-        "link": "https://www.brown.edu/",
-        "alt": "brown-logo"
+      "java": {
+        "link": "https://www.java.com/en/",
+        "alt": "java-logo"
       },
-      "capgemini": {
-        "link": "https://www.capgemini.com/in-en/",
-        "alt": "capgemini-logo"
+      "python": {
+        "link": "https://www.python.org/",
+        "alt": "python-logo"
       },
-      "cisco": {
-        "link": "https://www.cisco.com/",
-        "alt": "cisco-logo"
+      "matlab": {
+        "link": "https://www.mathworks.com/",
+        "alt": "matlab-logo"
       },
-      "lt": {
-        "link": "https://www.larsentoubro.com/",
-        "alt": "lt-logo"
+      "html": {
+        "link": "https://en.wikipedia.org/wiki/HTML",
+        "alt": "html-logo"
+      },
+      "bootstrap": {
+        "link": "https://getbootstrap.com/",
+        "alt": "bootstrap-logo"
+      },
+      "bulma": {
+        "link": "https://bulma.io/",
+        "alt": "bulma-logo"
+      },
+      "vue": {
+        "link": "https://vuejs.org/",
+        "alt": "vue-logo"
+      },
+      "nodejs": {
+        "link": "https://nodejs.org/en/",
+        "alt": "nodejs-logo"
+      },
+      "github": {
+        "link": "https://github.com/",
+        "alt": "github-logo"
       }
     }
   },
-  "nav-bar":{
-    "links":{
+  "nav-bar": {
+    "links": {
       "about": "ABOUT ME",
       "work": "WORK",
       "resume": "RESUME"
@@ -72,7 +98,7 @@
     "button-text": "Explore below!",
     "add-task-button": "Register your task"
   },
-  "fields":{
+  "fields": {
     "taskName": "Task",
     "links": "Links",
     "framework": "Framework",
@@ -83,16 +109,15 @@
     "features": "Features",
     "tags": "Tags"
   },
-  "sidebar":{
+  "sidebar": {
     "title": "CONTROLS",
     "filters": {
       "platform": "Platform",
       "features": "Features",
-      "tags":"Tags",
+      "tags": "Tags",
       "lab": "Labs",
       "perPage": "Per Page",
       "search": "Search"
-
     }
   }
 }

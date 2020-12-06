@@ -54,6 +54,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+  color: blue !important;
+}
+.nav-item > a:hover {
+  color: blue !important;
+}
 .name {
   color: black;
   border-right: solid 0.2rem;
@@ -67,13 +76,13 @@ export default {
   background-color: #f4ece6;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 10;
 }
 .navb-white {
   background-color: white;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 10;
 }
 .navitem {
   font-size: 1rem;

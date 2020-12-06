@@ -19,8 +19,9 @@
           <p class="subtitle">
             {{ $t("home.role") }}
           </p>
-          <b-button pill variant="outline-dark_hue">
-            {{ $t("home.work-button") }}</b-button>
+          <b-button pill variant="outline-dark_hue" to="/work">
+            {{ $t("home.work-button") }}</b-button
+          >
         </b-col>
       </b-row>
     </b-container>

@@ -3,7 +3,9 @@
     <b-row class="justify-content-md-center">
       <b-col sm>
         <b-row class="justify-content-md-center" row lg="2">
-          <b-card class="card text-center">
+          <b-card
+            class="card d-flex flex-column text-center shadow mb-4 rounded"
+          >
             <b-avatar
               src="https://placekitten.com/300/300"
               size="10rem"
@@ -12,10 +14,55 @@
               <h3 class="name">
                 <b>{{ $t("home.first-name") }}</b>
               </h3>
-              <h3 class="name">
+              <h3 class="name mb-3">
                 <b>{{ $t("home.last-name") }}</b>
               </h3>
+              <div class="border1 mx-auto"></div>
+              <p class="mb-4">
+                <b class="subtitle1">{{ $t("home.role") }}</b>
+              </p>
             </b-card-body>
+            <div class="justify-content-md-center footer1 bg-white">
+              <div>
+                <a target="blank" :href="$t('social.github')">
+                  <img
+                    src="../assets/github_color.svg"
+                    alt="github"
+                    width="30"
+                    height="30"
+                    class="mr-3"
+                  />
+                </a>
+                <a target="blank" :href="$t('social.linkedin')">
+                  <img
+                    src="../assets/linkedin_color.svg"
+                    alt="github"
+                    width="30"
+                    height="30"
+                    class="mr-3"
+                  />
+                </a>
+                <a target="blank" :href="$t('social.facebook')">
+                  <img
+                    src="../assets/facebook_color.svg"
+                    alt="github"
+                    width="30"
+                    height="30"
+                    class="mr-3"
+                  />
+                </a>
+
+                <a target="blank" :href="$t('social.instagram')">
+                  <img
+                    src="../assets/instagram_color.svg"
+                    alt="github"
+                    width="30"
+                    height="30"
+                    class="mr-3"
+                  />
+                </a>
+              </div>
+            </div>
           </b-card>
         </b-row>
         <b-row class="justify-content-md-center" row lg="2">
@@ -43,15 +90,32 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.footer1 {
+  height: 6.7rem;
+  margin-left: -3.2rem;
+  margin-right: -3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subtitle1 {
+  letter-spacing: 1.15;
+  font-size: 1.2rem;
+}
 .carousel {
-  width: 31rem;
-  height: 27rem;
-  padding: 2rem;
+  background-color: #f4ece6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 27rem;
+  height: 29rem;
+  padding: 0.5rem;
 }
 .card {
   width: 27rem;
+  background-color: #f4ece6 !important;
   height: 35rem;
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
 }
 .name {
   color: black;
@@ -59,6 +123,12 @@ export default {
   font-family: poppins, sans-serif;
   font-weight: 600;
   font-style: bold;
+}
+.border1 {
+  width: 50px;
+  height: 5px;
+  margin: 0px 0px 25px 0;
+  border-top: 2px solid blue;
 }
 .hello {
   color: black;
