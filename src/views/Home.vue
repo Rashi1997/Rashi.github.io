@@ -77,4 +77,12 @@ export default {
     transform: rotate(360deg);
   }
 }
+@media only screen and (max-width: 768px) {
+  .vue-typer {
+    font-size: 3.5rem;
+  }
+  .subtitle {
+    font-size: 1.7rem;
+  }
+}
 </style>

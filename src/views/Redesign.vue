@@ -168,11 +168,11 @@ export default {
 }
 .image {
   width: 30vw;
-  height: 50vh;
+  height: 55vh;
 }
 .sg {
   width: 30vw;
-  height: 40vh;
+  height: 45vh;
 }
 .deploy {
   width: 50vw;

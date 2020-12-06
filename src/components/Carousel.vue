@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-4">
     <b-carousel
       id="carousel-1"
       v-model="slide"
@@ -15,15 +15,18 @@
     >
       <!-- Text slides with image -->
       <b-carousel-slide class="slide">
-        <h3 style="color:black; overflow-wrap: break-word;" class="text-left">
+        <h3
+          style="color:black; overflow-wrap: break-word;"
+          class="mb-3 text-left"
+        >
           {{ $t("about.carousel-slide-1.title") }}
         </h3>
         <a target="blank" :href="$t('about.carousel-slide-1.ccv.link')">
           <img
             src="../assets/ccv.png"
             :alt="$t('about.carousel-slide-1.ccv.alt')"
-            width="120"
-            height="120"
+            width="100"
+            height="100"
             class="m-2"
           />
         </a>
@@ -31,8 +34,8 @@
           <img
             src="../assets/brown.png"
             :alt="$t('about.carousel-slide-1.brown.alt')"
-            width="120"
-            height="70"
+            width="100"
+            height="50"
             class="m-2"
           />
         </a>
@@ -40,8 +43,8 @@
           <img
             src="../assets/capgemini.png"
             :alt="$t('about.carousel-slide-1.capgemini.alt')"
-            width="150"
-            height="50"
+            width="130"
+            height="30"
             class="m-2"
           />
         </a>
@@ -49,8 +52,8 @@
           <img
             src="../assets/cisco.png"
             :alt="$t('about.carousel-slide-1.cisco.alt')"
-            width="110"
-            height="60"
+            width="90"
+            height="40"
             class="m-2"
           />
         </a>
@@ -58,9 +61,9 @@
           <img
             src="../assets/lt.png"
             :alt="$t('about.carousel-slide-1.lt.alt')"
-            width="50"
-            height="50"
-            class="m-2"
+            width="30"
+            height="30"
+            class="m-2 mb-4"
           />
         </a>
       </b-carousel-slide>

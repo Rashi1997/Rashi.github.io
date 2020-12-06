@@ -136,14 +136,77 @@
         }
       }
     },
-    "design": {
-      "title": "Ilk Design"
-    },
-    "beehive": {
-      "title": "Beehive"
-    },
     "repohub": {
-      "title": "Repohub"
+      "title": "Repohub",
+      "parts": {
+        "Overview": {
+          "title": "1 Overview",
+          "description": "There are many great repositories available on <b>GitHub</b>, an online platform for open-source code. However, I didn't find one <b>good search platform</b> to search through the repositories by many filters. I created <b>an interactive search React app</b> through which you can filter and sort on repositories to find any public repository. So before starting your project you can look for repositories on similar ideas through keyword search and topics search and sort them by stars to get the most popular repository. You can also look for the specific language implementation of the idea.",
+          "description1": "In addition to searching and filtering this allows you to <b>bookmark repositories you find useful</b> and aggregates them into bookmarks view as cards. It also displays a small world cloud visualization of the keywords related to the bookmarks."
+        },
+        "Usability": {
+          "title": "2 Usability Guidlines",
+          "description": "The web app was created by keeping the four usability guidelines: usability, learnability, memorability and efficiency in mind."
+        }
+      }
+    },
+    "taskhub": {
+      "title": "Beehive",
+      "parts": {
+        "Overview": {
+          "title": "1 Overview",
+          "description": "This project was a part of interning at <a target=\"blank\" style=\"color: blue;\" href=\"https://ccv.brown.edu/\">Center for Computation & Visualization</a>, Brown University. The task at hand was to create a hub for behavioral tasks to support discovery, sharing, reproducibility and collaboration across different labs at Brown and beyond. The Behavioral Task Hub serves as a central and open registry of behavioral tasks, their provenance and deployment details. ",
+          "description1": "All behavioral tasks are welcome! The task registry data is hosted at <a href=\"https://github.com/brown-ccv/task-registry-data\" style=\"color: blue;\">CCV GitHub</a>.  To add a new task or request a fix to an existing one, navigate to the issues tab in the <a href=\"https://github.com/brown-ccv/task-registry-data\" style=\"color: blue;\">github repository</a>, select <i>new issue</i> and choose the template to open a new task for adding a new task to the hub, or <i>file a bug report</i> for any other issue/request."
+        },
+        "Design": {
+          "title": "2 Design Process",
+          "description": "The first step was to create a JavaScript Github action to fetch the new issues/tasks submitted, validate and consolidate them into XML files. This is the backend API of the web app.",
+          "description1": "For the frontend, I used Vue js. The main part of the website is the good search platform, which lets you have an interactive experience with exploring the behavioral tasks at Brown labs. We spent most time on deciding the way to efficiently display the task information to the website users. After careful thoughts, we went ahead with the table view and a sidebar to have the search and filter options. As the number of the tasks in the registry could increase over time as people register, we thought a table is the best view to showcase multiple items."
+        }
+      }
+    },
+    "design": {
+      "title": "Ilk Design",
+      "parts": {
+        "Overview": {
+          "title": "1 Overview",
+          "description": "For our UI/UX class’s iterative design project, we, a team of 4 students, designed an app for a startup from TechCrunch’s <a target=\"blank\" style=\"color: blue;\"  href=\"https://techcrunch.com/2020/08/25/here-are-the-94-companies-from-y-combinators-summer-2020-demo-day-2/\"> YCombinator’s Day Summer Demo list</a> based only on the startup’s concept. Throughout the project, we took no inspiration from any design work that the startup has already done.",
+          "description1": "We chose to design a mobile application for <a target=\"blank\" style=\"color: blue;\" href=\"https://ilk.io/\">Ilk</a>, a startup that seeks to provide safer childcare solutions for parents during the COVID-19 pandemic by matching families in a childcare pod to a caregiver. "
+        },
+        "Design": {
+          "title": "",
+          "description": "From TechCrunch, the concept for Ilk we had to work with was the following:",
+          "description1": "<b> \"Using a thesis of the ‘childcare pod’, Ilk is coming to the rescue of worried parents who need to find better/safer childcare solutions during the COVID-19 pandemic, according to the company’s founder. With a childcare pod, 2-5 families team up to pool resources and pay for a caregiver to care for their kids. The company’s service matches parents with caregivers.\"</b>"
+        },
+        "Problem": {
+          "title": "2 The Problem",
+          "description": "For lots of families, enrolling in daycare or preschool is not an option in a pandemic. How could we help Ilk match families in a pod and match pods to caregivers, with the health and safety of everyone in mind? How could we make caregivers and parents lives easier?"
+        },
+        "Solution": {
+          "title": "3 Our Solution",
+          "description": "We designed a mobile app that has a caregiver side and a parent side. A form is used to collect information about parents/caregivers to help in the matching process, with the most important part of the form being about COVID-19 related health and risk information. The app goes also provides a space for families and caregivers to communicate."
+        },
+        "Sketches": {
+          "title": "4 Sketches",
+          "description": "The two user types of the app will be parents and caregivers."
+        },
+        "Wireframing": {
+          "title": "5 Wireframing",
+          "description": "After discussing our respective sketches, we combined our ideas to create a unified low-fidelity wireframe for the app which you can <a target=\"blank\" style=\"color: blue;\" href=\"https://www.figma.com/file/WvfgeZ6JOrtJQUbhArXM9F/Ilk-Low-Fidelity-Wireframe?node-id=0%3A1\">check out on Figma here</a>. ",
+          "description1": "We then created a <a target=\"blank\" style=\"color: blue;\" href=\"https://www.figma.com/file/PWMIs4mByOQMGvLHGAp3Ic/Iterative-Design-pre-crit?node-id=0%3A1\">first draft of a high-fidelity prototype</a>. We wanted to focus on the parent and caregiver matching process, followedby ways they could interact:",
+          "description2": "We then presented our high fidelity mockup to our class. After briefly explaining our startup concept, our peers interacted with our prototype. We received lots of feedback:"
+        },
+        "User": {
+          "title": "6 User Testing",
+          "description": "We used a remote user testing service <a target=\"blank\" style=\"color: blue;\" href=\"https://www.usertesting.com/\">UserTesting.com</a> to conduct our usability tests, where we were able to test with 3 users. The only user specification was that they needed to be a parent. We wanted to focus on the sign up process as well as navigation, so we included a few different tasks which are listed below. We were curious to see if users liked the app’s concept, mainly focusing on parents, and how intuitive they found the matching process and communicating with people in the app.",
+          "description1": "We then created a <a target=\"blank\" style=\"color: blue;\" href=\"https://www.figma.com/file/PWMIs4mByOQMGvLHGAp3Ic/Iterative-Design-pre-crit?node-id=0%3A1\">first draft of a high-fidelity prototype</a>. We wanted to focus on the parent and caregiver matching process, followedby ways they could interact:",
+          "description2": "We then presented our high fidelity mockup to our class. After briefly explaining our startup concept, our peers interacted with our prototype. We received lots of feedback:"
+        },
+        "conclusion": {
+          "title": "7 Conclusion",
+          "description": "<p>This project was extremely rewarding and we all enjoyed testing the skills we learned in class. Our key takeaways were:</p><ul><li>During user testing, it became clear to us that users could benefit from “first time’ instructions about how to navigate in the app. In the future, we would add pop ups for each button and include instructions about how the app works (with the option to “not view again”).</li><li>Similarly, try to think as much as possible from the point of view of the User! Don’t assume anything - the issues user testing reveals are really just assumptions we made about user knowledge.</li><li>Planning interactions ahead of time using wireframes makes high-fi prototyping much simpler, especially when you end up having 65 frames.</li><li>Take advantage of brain power through team members! This was our first group project and although it was a bit chaotic at times, having a sounding board and combining ideas leads to a better overall product.</li></ul>"
+        }
+      }
     }
   }
 }

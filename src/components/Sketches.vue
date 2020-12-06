@@ -16,8 +16,30 @@
       <b-carousel-slide>
         <template #img>
           <img
+            class="d-block img-fluid w-100"
+            :src="require('../assets/design/katherine.png')"
+            alt="image slot"
+          />
+        </template>
+      </b-carousel-slide>
+      <!-- Slides with img slot -->
+      <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
+      <b-carousel-slide>
+        <template #img>
+          <img
+            class="d-block img-fluid w-100"
+            :src="require('../assets/design/melissa.jpg')"
+            alt="image slot"
+          />
+        </template>
+      </b-carousel-slide>
+      <!-- Slides with img slot -->
+      <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
+      <b-carousel-slide>
+        <template #img>
+          <img
             class="d-block m-auto img-fluid w-100"
-            :src="require('../assets/redesign/desktop-lo.png')"
+            :src="require('../assets/design/rashi.png')"
             alt="image slot"
           />
         </template>
@@ -28,18 +50,7 @@
         <template #img>
           <img
             class="d-block img-fluid w-100"
-            :src="require('../assets/redesign/tablet-lo.png')"
-            alt="image slot"
-          />
-        </template>
-      </b-carousel-slide>
-      <!-- Slides with img slot -->
-      <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-      <b-carousel-slide>
-        <template #img>
-          <img
-            class="d-block img-fluid w-100"
-            :src="require('../assets/redesign/mobile-lo.png')"
+            :src="require('../assets/design/soma.png')"
             alt="image slot"
           />
         </template>
@@ -70,7 +81,7 @@ export default {
 <style scoped>
 .slide {
   margin-bottom: 3rem;
-  height: 14rem;
+  height: 28rem;
   background-color: white !important;
   text-shadow: none !important;
 }
