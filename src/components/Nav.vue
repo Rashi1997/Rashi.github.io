@@ -8,8 +8,9 @@
             <b> {{ $t("home.name") }}</b>
           </h3></b-nav-item
         >
+        <div v-if="name !== 'Home'" class="bar mt-3"></div>
         <b-nav-item v-if="name !== 'Home'" to="/">
-          <p style="font-familty: Monospace; padding-top: 6px">
+          <p style="padding-top: 12px" class="role">
             <b>{{ $t("home.role") }}</b>
           </p></b-nav-item
         >
@@ -22,12 +23,15 @@
           <b-nav-item class="navitem" to="/about">{{
             $t("nav-bar.links.about")
           }}</b-nav-item>
-          <b-nav-item class="navitem">{{
+          <b-nav-item class="navitem" to="/work">{{
             $t("nav-bar.links.work")
           }}</b-nav-item>
-          <b-nav-item class="navitem">{{
-            $t("nav-bar.links.resume")
-          }}</b-nav-item>
+          <b-nav-item
+            class="navitem"
+            target="blank"
+            :href="$t('home.resume')"
+            >{{ $t("nav-bar.links.resume") }}</b-nav-item
+          >
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -54,6 +58,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.role {
+  display: block;
+}
+.bar {
+  height: 30px;
+  width: 5px;
+  margin-right: 1rem;
+  border-right: solid 0.2rem;
+}
 .navbar-light .nav-item.active .nav-link,
 .navbar-light .nav-item .nav-link:active,
 .navbar-light .nav-item .nav-link:focus,
@@ -65,12 +78,13 @@ export default {
 }
 .name {
   color: black;
-  border-right: solid 0.2rem;
   padding-right: 1rem;
   overflow-wrap: break-word;
   font-family: poppins, sans-serif;
   font-weight: 600;
   font-style: bold;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .navb-color {
   background-color: #f4ece6;
@@ -89,6 +103,7 @@ export default {
   margin: 0.5rem;
 }
 .rotate {
+  margin-left: 3rem;
   width: 2rem;
   height: 2rem;
   background-color: blue;
@@ -102,6 +117,17 @@ export default {
 
   to {
     transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bar {
+    display: none;
+  }
+  .name {
+    padding-top: 2rem;
+  }
+  .role {
+    display: none;
   }
 }
 </style>

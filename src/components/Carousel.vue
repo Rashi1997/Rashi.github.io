@@ -15,9 +15,9 @@
     >
       <!-- Text slides with image -->
       <b-carousel-slide class="slide">
-        <h2 style="color:black; overflow-wrap: break-word;" class="text-left">
+        <h3 style="color:black; overflow-wrap: break-word;" class="text-left">
           {{ $t("about.carousel-slide-1.title") }}
-        </h2>
+        </h3>
         <a target="blank" :href="$t('about.carousel-slide-1.ccv.link')">
           <img
             src="../assets/ccv.png"
@@ -67,9 +67,9 @@
 
       <!-- Text slides with image -->
       <b-carousel-slide class="slide">
-        <h2 style="color:black; overflow-wrap: break-word;" class="text-left">
+        <h3 style="color:black; overflow-wrap: break-word;" class="text-left">
           {{ $t("about.carousel-slide-2.title") }}
-        </h2>
+        </h3>
         <a target="blank" :href="$t('about.carousel-slide-2.javascript.link')">
           <img
             src="../assets/javascript.png"
@@ -185,6 +185,7 @@ export default {
 </script>
 <style scoped>
 .slide {
+  margin-bottom: 3rem;
   height: 28rem;
   background-color: #f4ece6 !important;
   text-shadow: none !important;

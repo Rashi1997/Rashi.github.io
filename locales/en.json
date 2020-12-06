@@ -10,7 +10,8 @@
     "last-name": "Dhar",
     "name": "Rashi Dhar",
     "role": "Web Developer",
-    "work-button": "VIEW MY WORK"
+    "work-button": "VIEW MY WORK",
+    "resume": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
   },
   "about": {
     "title": "Hello",
@@ -90,34 +91,59 @@
       "resume": "RESUME"
     }
   },
-  "hero": {
-    "title": "Behavioral Task Hub",
-    "heading": "A hub for researchers to share and find behavioral tasks",
-    "description": "The Behavioral Task Hub serves as a central and open registry of behavioral tasks, their provenance and deployment details. This website was built by members and interns of CCV to support discovery, sharing, reproducibility and collaboration across different labs at Brown and beyond. Adding the information about your tasks is a simple process, see ",
-    "description2": "All behavioral tasks are welcome! If you would like to see additional information on this site, ",
-    "button-text": "Explore below!",
-    "add-task-button": "Register your task"
-  },
-  "fields": {
-    "taskName": "Task",
-    "links": "Links",
-    "framework": "Framework",
-    "language": "Language",
-    "lab": "Labs",
-    "publication": "Publication",
-    "platform": "Platform",
-    "features": "Features",
-    "tags": "Tags"
-  },
-  "sidebar": {
-    "title": "CONTROLS",
-    "filters": {
-      "platform": "Platform",
-      "features": "Features",
-      "tags": "Tags",
-      "lab": "Labs",
-      "perPage": "Per Page",
-      "search": "Search"
+  "projects-1-deck": [
+    {
+      "title":"Cupcake Redesign",
+      "description": "Redesign of home page of the Toronto Cupcake website based on usability and accessibility standards.",
+      "link": "cupcake-redesign"
+    },
+    {
+      "title":"Beehive",
+      "description": "A Hub for researchers to share and find Behavioral Tasks.",
+      "link": "beehive"
+    }
+  ],
+  "projects-2-deck": [
+    {
+      "title":"Ilk Design",
+      "description": "Designed a mobile application for Ilk, a startup that seeks to provide safer childcare solutions for parents during the COVID-19 pandemic by matching families in a childcare pod to a caregiver.",
+      "link": "ilk-design"
+    },
+    {
+      "title":"Repohub",
+      "description": "An interactive App to search Github repositories.",
+      "link": "repo-hub"
+    }
+  ],
+  "projects": {
+    "redesign": {
+      "title": "Cupcake Redesign",
+      "parts": {
+        "Overview": {
+          "title": "1 Overview",
+          "description": "<i>So the story goes like this:</i> I was reconnecting with a friend in Toronto and heard from them that there is an awesome cupcake shop <a target=\"blank\" style=\"color:blue\" href=\"https://torontocupcake.com/\">Toronto Cupcake</a> nearby which sells fabulous cupcakes. But when I looked up the name, I had to reconfirm with them if it was really famous! <b>This is what happens when the web presence of a business does not do justice to their actual popularity.",
+          "description1": "So I choose this website for Brown CSCI 1300 Responsive Redesign assignment."
+        },
+        "Process": {
+          "title": "2 Design Analysis",
+          "description": "Currently, the Toronto Cupcake website design does not do justice to the cupcakes and is not appealing to the users. The homepage also seems like a fake ecommerce site and makes users question the authenticity of the website.",
+          "description1": "The website is functional, but lacks intuitive design, subjective satisfaction, efficiency, accessibility and lacks responsiveness.",
+          "description2": "As a first step I sketched out my redesign thoughts into prototypes and then went on the fixing on a visual style guide. <b>This process helped me stay in line with the process of coding out the HTML/CSS and prevented me from fluctuating between design ideas.</b>"
+        },
+        "Deployed": {
+          "title": "3 Deployed Homepage",
+          "description": "As a final step, to demonstrate that the high-fidelity mockup was possible to implement, I developed my own version of my final homepage of website which can be found <a style=\"color:blue\" target=\"blank\" href=\"https://frozen-basin-88210.herokuapp.com/\">at this link</a>."
+        }
+      }
+    },
+    "design": {
+      "title": "Ilk Design"
+    },
+    "beehive": {
+      "title": "Beehive"
+    },
+    "repohub": {
+      "title": "Repohub"
     }
   }
 }

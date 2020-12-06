@@ -143,7 +143,7 @@ export default {
   overflow-wrap: break-word;
   font-family: poppins, sans-serif;
   font-weight: normal;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .subtitle {
   font-size: 2rem;
