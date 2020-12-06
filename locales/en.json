@@ -95,24 +95,28 @@
     {
       "title":"Cupcake Redesign",
       "description": "Redesign of home page of the Toronto Cupcake website based on usability and accessibility standards.",
-      "link": "cupcake-redesign"
+      "link": "cupcake-redesign",
+      "src": "redesign/deploy.png"
     },
     {
       "title":"Beehive",
       "description": "A Hub for researchers to share and find Behavioral Tasks.",
-      "link": "beehive"
+      "link": "beehive",
+      "src": "beehive/beehive.png"
     }
   ],
   "projects-2-deck": [
     {
       "title":"Ilk Design",
       "description": "Designed a mobile application for Ilk, a startup that seeks to provide safer childcare solutions for parents during the COVID-19 pandemic by matching families in a childcare pod to a caregiver.",
-      "link": "ilk-design"
+      "link": "ilk-design",
+      "src": "design/gif2.gif"
     },
     {
       "title":"Repohub",
       "description": "An interactive App to search Github repositories.",
-      "link": "repo-hub"
+      "link": "repo-hub",
+      "src": "repohub/screenshot.png"
     }
   ],
   "projects": {

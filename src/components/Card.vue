@@ -17,12 +17,11 @@
             </b-col>
             <b-col>
               <b-row>
-                <b-img
-                  src="https://placekitten.com/300/300"
-                  width="200"
+                <img
+                  :src="require(`@/assets/${item.src}`)"
+                  width="300"
                   height="200"
-                >
-                </b-img>
+                />
               </b-row>
             </b-col>
           </b-row>
@@ -37,6 +36,13 @@ export default {
   name: "Card",
   props: {
     item: null,
+  },
+  computed: {
+    // a computed getter
+    src: function() {
+      // `this` points to the vm instance
+      return "../assets/design/" + this.item.src + ".png";
+    },
   },
 };
 </script>
