@@ -19,7 +19,7 @@
           <p class="subtitle">
             {{ $t("home.role") }}
           </p>
-          <b-button pill variant="outline-dark_hue" to="/work">
+          <b-button class="mt-2" pill variant="dark_hue" to="/work">
             {{ $t("home.work-button") }}</b-button
           >
         </b-col>
@@ -44,19 +44,30 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .subtitle {
-  font-size: 2rem;
+  font-size: 3.2rem;
+  font-family: sacre-bleu-mvb, sans-serif;
+  font-weight: bolder;
 }
 .hero {
   padding: 0;
   margin: 0;
-  background-color: #f4ece6;
+  /* background-color: #e9e9e9; */
+  /* background-image: url("../assets/home.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  min-height: 100%;
+  background: linear-gradient(0deg, rgba(42, 183, 202, 0.3), #e9e9e9),
+    url("../assets/home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-left: 10vw;
 }
 .vue-typer {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 4rem;
-  text-align: center;
-  font-weight: bolder;
+  font-family: sacre-bleu-mvb, sans-serif;
+  font-weight: 1000;
+  font-style: bolder;
+  font-size: 7rem;
+  color: #146666 !important;
 }
 .full-height {
   height: 100vh;
@@ -64,7 +75,7 @@ export default {
 .rotate {
   width: 2rem;
   height: 2rem;
-  background-color: blue;
+  background-color: #0b626b;
   animation: rotate 3s infinite linear both;
 }
 
@@ -80,6 +91,7 @@ export default {
 @media only screen and (max-width: 768px) {
   .vue-typer {
     font-size: 3.5rem;
+    color: #146666 !important;
   }
   .subtitle {
     font-size: 1.7rem;

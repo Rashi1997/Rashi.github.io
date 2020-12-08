@@ -29,7 +29,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .work {
-  background-color: #f4ece6;
+  /* background-color: #e9e9e9; */
+  background: linear-gradient(0deg, rgba(42, 183, 202, 0.3), #e9e9e9);
   height: 100%;
   padding: 10vw;
 }

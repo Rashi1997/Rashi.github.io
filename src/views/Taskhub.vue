@@ -39,11 +39,23 @@
         target="blank"
         href="https://beehive.ccv.brown.edu/#/"
         pill
-        variant="outline-dark_hue"
+        variant="dark_hue"
       >
         VIST BEEHIVE</b-button
       >
     </div>
+    <div
+      class="title"
+      v-html="$t('projects.taskhub.parts.Conclusion.title')"
+    ></div>
+    <div
+      class="subtitle"
+      v-html="$t('projects.taskhub.parts.Conclusion.description')"
+    ></div>
+    <div
+      class="subtitle"
+      v-html="$t('projects.taskhub.parts.Conclusion.description1')"
+    ></div>
   </div>
 </template>
 
@@ -61,7 +73,7 @@ export default {
   display: none !important;
 }
 .bg-color {
-  background-color: #f4ece6;
+  background: linear-gradient(0deg, rgba(42, 183, 202, 0.3), #e9e9e9);
   height: 100%;
   padding-right: 10vw;
   padding-top: 10vh;
@@ -69,7 +81,7 @@ export default {
 }
 .bar {
   height: 120px;
-  border-left: solid 1.2rem blue;
+  border-left: solid 1.2rem #0d7369;
   display: flex;
   align-items: center;
   padding-left: 15vw;
@@ -78,7 +90,7 @@ export default {
   font-weight: 600;
   font-style: bold;
   font-size: 2.5rem;
-  color: blue;
+  color: #0d7369;
 }
 .title {
   margin-left: 20vw;
@@ -128,8 +140,8 @@ export default {
     margin-right: 5vw;
   }
   .ar {
-    width: 80vw;
-    height: 50vh;
+    width: 90vw;
+    height: 23vh;
   }
   .sg {
     width: 80vw;

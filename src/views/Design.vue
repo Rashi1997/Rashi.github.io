@@ -48,7 +48,7 @@
       v-html="$t('projects.design.parts.Sketches.description')"
     ></div>
     <div class="mt-3 align-center">
-      <b-button v-b-modal.sketches pill variant="outline-dark_hue">
+      <b-button v-b-modal.sketches pill variant="dark_hue">
         EXPLORE INITIAL SKETCHES!</b-button
       >
       <b-modal ok-only ok-variant="dark_hue" id="sketches"
@@ -65,7 +65,7 @@
     ></div>
 
     <div class="mt-3 align-center">
-      <b-button v-b-modal.low-fi pill variant="outline-dark_hue">
+      <b-button v-b-modal.low-fi pill variant="dark_hue">
         LO-FI PROTOTYPE</b-button
       >
       <b-modal ok-only ok-variant="dark_hue" id="low-fi"
@@ -73,7 +73,7 @@
       /></b-modal>
     </div>
     <div class="mt-3 align-center">
-      <b-button v-b-modal.sg pill variant="outline-dark_hue">
+      <b-button v-b-modal.sg pill variant="dark_hue">
         VISUAL STYLE GUIDE</b-button
       >
       <b-modal ok-only ok-variant="dark_hue" id="sg"
@@ -96,7 +96,7 @@
       v-html="$t('projects.design.parts.Wireframing.description2')"
     ></div>
     <div class="mt-3 align-center">
-      <b-button v-b-modal.feed pill variant="outline-dark_hue">
+      <b-button v-b-modal.feed pill variant="dark_hue">
         FEEDBACK & CHANGES</b-button
       >
       <b-modal ok-only ok-variant="dark_hue" id="feed"><FeedBack /></b-modal>
@@ -109,10 +109,10 @@
     ></div>
 
     <div class="mt-3 align-center">
-      <b-button v-b-modal.task pill variant="outline-dark_hue">
-        TASK ANALYSIS</b-button
-      >
-      <b-modal ok-only ok-variant="dark_hue" id="task"><TaskAnalysis /></b-modal>
+      <b-button v-b-modal.task pill variant="dark_hue"> TASK ANALYSIS</b-button>
+      <b-modal ok-only ok-variant="dark_hue" id="task"
+        ><TaskAnalysis
+      /></b-modal>
     </div>
 
     <div class="mt-3 align-center">
@@ -120,7 +120,7 @@
         target="blank"
         href="https://www.figma.com/proto/Baqjpt8YgVxWTeqwVRuIiu/Iterative-Design?node-id=52%3A80&scaling=scale-down"
         pill
-        variant="outline-dark_hue"
+        variant="dark_hue"
       >
         VIST FINAL PROTOTYPE</b-button
       >
@@ -149,7 +149,7 @@ export default {
     Sketches,
     LowFiDesign,
     FeedBack,
-    TaskAnalysis
+    TaskAnalysis,
   },
 };
 </script>
@@ -160,7 +160,7 @@ export default {
   display: none !important;
 }
 .bg-color {
-  background-color: #f4ece6;
+  background: linear-gradient(0deg, rgba(42, 183, 202, 0.3), #e9e9e9);
   height: 100%;
   padding-right: 10vw;
   padding-top: 10vh;
@@ -168,7 +168,7 @@ export default {
 }
 .bar {
   height: 120px;
-  border-left: solid 1.2rem blue;
+  border-left: solid 1.2rem #0d7369;
   display: flex;
   align-items: center;
   padding-left: 15vw;
@@ -177,7 +177,7 @@ export default {
   font-weight: 600;
   font-style: bold;
   font-size: 2.5rem;
-  color: blue;
+  color: #0d7369;
 }
 .title {
   margin-left: 20vw;

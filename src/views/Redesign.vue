@@ -40,11 +40,11 @@
       v-html="$t('projects.redesign.parts.Process.description2')"
     ></div>
     <div class="align-center">
-      <b-button v-b-modal.low-fi pill variant="outline-dark_hue" class="mr-2">
+      <b-button v-b-modal.low-fi pill variant="dark_hue" class="mr-2">
         Low-Fi Prototypes</b-button
       >
 
-      <b-button v-b-modal.hi-fi pill variant="outline-dark_hue">
+      <b-button v-b-modal.hi-fi pill variant="dark_hue">
         Hi-Fi Prototypes</b-button
       >
       <b-modal ok-only ok-variant="dark_hue" id="low-fi"
@@ -95,11 +95,23 @@
         target="blank"
         href="https://frozen-basin-88210.herokuapp.com/"
         pill
-        variant="outline-dark_hue"
+        variant="dark_hue"
       >
         VIEW DEMO</b-button
       >
     </div>
+    <div
+      class="title"
+      v-html="$t('projects.redesign.parts.Conclusion.title')"
+    ></div>
+    <div
+      class="subtitle"
+      v-html="$t('projects.redesign.parts.Conclusion.description')"
+    ></div>
+    <div
+      class="subtitle"
+      v-html="$t('projects.redesign.parts.Conclusion.description1')"
+    ></div>
   </div>
 </template>
 
@@ -122,7 +134,8 @@ export default {
   display: none !important;
 }
 .bg-color {
-  background-color: #f4ece6;
+  /* background-color: #e9e9e9; */
+  background: linear-gradient(0deg, rgba(42, 183, 202, 0.3), #e9e9e9);
   height: 100%;
   padding-right: 10vw;
   padding-top: 10vh;
@@ -130,7 +143,7 @@ export default {
 }
 .bar {
   height: 120px;
-  border-left: solid 1.2rem blue;
+  border-left: solid 1.2rem #0D7369;
   display: flex;
   align-items: center;
   padding-left: 15vw;
@@ -139,7 +152,7 @@ export default {
   font-weight: 600;
   font-style: bold;
   font-size: 2.5rem;
-  color: blue;
+  color: #0D7369;
 }
 .title {
   margin-left: 20vw;

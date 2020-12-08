@@ -9,7 +9,7 @@
     "first-name": "Rashi",
     "last-name": "Dhar",
     "name": "Rashi Dhar",
-    "role": "Web Developer",
+    "role": "UX Designer",
     "work-button": "VIEW MY WORK",
     "resume": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
   },
@@ -17,7 +17,7 @@
     "title": "Hello",
     "subtitle": "Here is who I am and what I do!",
     "carousel-slide-1": {
-      "title": "Corporates/Clients",
+      "title": "Corporates",
       "ccv": {
         "link": "https://ccv.brown.edu/",
         "alt": "ccv-logo"
@@ -96,13 +96,13 @@
       "title":"Cupcake Redesign",
       "description": "Redesign of home page of the Toronto Cupcake website based on usability and accessibility standards.",
       "link": "cupcake-redesign",
-      "src": "redesign/deploy.png"
+      "src": "projects/redesign.png"
     },
     {
       "title":"Beehive",
       "description": "A Hub for researchers to share and find Behavioral Tasks.",
       "link": "beehive",
-      "src": "beehive/beehive.png"
+      "src": "projects/beehive.png"
     }
   ],
   "projects-2-deck": [
@@ -116,7 +116,7 @@
       "title":"Repohub",
       "description": "An interactive App to search Github repositories.",
       "link": "repo-hub",
-      "src": "repohub/screenshot.png"
+      "src": "projects/repohub.png"
     }
   ],
   "projects": {
@@ -125,7 +125,7 @@
       "parts": {
         "Overview": {
           "title": "1 Overview",
-          "description": "<i>So the story goes like this:</i> I was reconnecting with a friend in Toronto and heard from them that there is an awesome cupcake shop <a target=\"blank\" style=\"color:blue\" href=\"https://torontocupcake.com/\">Toronto Cupcake</a> nearby which sells fabulous cupcakes. But when I looked up the name, I had to reconfirm with them if it was really famous! <b>This is what happens when the web presence of a business does not do justice to their actual popularity.",
+          "description": "<i>So the story goes like this:</i> I was reconnecting with a friend in Toronto and heard from them that there is an awesome cupcake shop <b><a target=\"blank\" style=\"color:#0D7369\" href=\"https://torontocupcake.com/\">Toronto Cupcake</a></b> nearby which sells fabulous cupcakes. But when I looked up the name, I had to reconfirm with them if it was really famous! <b>This is what happens when the web presence of a business does not do justice to their actual popularity.",
           "description1": "So I choose this website for Brown CSCI 1300 Responsive Redesign assignment."
         },
         "Process": {
@@ -136,7 +136,12 @@
         },
         "Deployed": {
           "title": "3 Deployed Homepage",
-          "description": "As a final step, to demonstrate that the high-fidelity mockup was possible to implement, I developed my own version of my final homepage of website which can be found <a style=\"color:blue\" target=\"blank\" href=\"https://frozen-basin-88210.herokuapp.com/\">at this link</a>."
+          "description": "As a final step, to demonstrate that the high-fidelity mockup was possible to implement, I developed my own version of my final homepage of website which can be found <b><a style=\"color:#0D7369\" target=\"blank\" href=\"https://frozen-basin-88210.herokuapp.com/\">at this link</a></b>."
+        },
+        "Conclusion": {
+          "title": "4 Conclusion",
+          "description": "This project forced me to consider how an interface can maximize each of the 3 aspects of usability. I often took the clean, informative webpages I usually frequent for granted, without realizing how much thought and time were invested before it was deployed. After very intentionally focusing on those concepts when designing and implementing this redesign, I've learned a lot about how a page with a clear visual hierarchy and informational message influences what the user takes away from it.",
+          "description1": "This was also the first time I used a screen-reader simulation to evaluate the accessibility of a webpage. I have a renewed appreciation for developers/designers who incorporate accessibility considerations into everything they build, and for those who use screen-readers to interact with the web. Neither are easy tasks!"
         }
       }
     },
@@ -151,6 +156,10 @@
         "Usability": {
           "title": "2 Usability Guidlines",
           "description": "The web app was created by keeping the four usability guidelines: usability, learnability, memorability and efficiency in mind."
+        },
+        "Conclusion": {
+          "title": "3 Conclusion",
+          "description": "I had always worked with Vue js and was unsure about React js, but I really wanted to understand the difference between them. This project helped get started with React and as I was going through the documentation on React, I found out that the architecture is very similar to Vue and I could easily switch between the two! I enjoyed using the react-spinner and also loved playing with GraphQL for the Github APIs."
         }
       }
     },
@@ -159,13 +168,18 @@
       "parts": {
         "Overview": {
           "title": "1 Overview",
-          "description": "This project was a part of interning at <a target=\"blank\" style=\"color: blue;\" href=\"https://ccv.brown.edu/\">Center for Computation & Visualization</a>, Brown University. The task at hand was to create a hub for behavioral tasks to support discovery, sharing, reproducibility and collaboration across different labs at Brown and beyond. The Behavioral Task Hub serves as a central and open registry of behavioral tasks, their provenance and deployment details. ",
-          "description1": "All behavioral tasks are welcome! The task registry data is hosted at <a href=\"https://github.com/brown-ccv/task-registry-data\" style=\"color: blue;\">CCV GitHub</a>.  To add a new task or request a fix to an existing one, navigate to the issues tab in the <a href=\"https://github.com/brown-ccv/task-registry-data\" style=\"color: blue;\">github repository</a>, select <i>new issue</i> and choose the template to open a new task for adding a new task to the hub, or <i>file a bug report</i> for any other issue/request."
+          "description": "This project was a part of interning at <b><a target=\"blank\" style=\"color: #0D7369;\" href=\"https://ccv.brown.edu/\">Center for Computation & Visualization</a></b>, Brown University. The task at hand was to create a hub for behavioral tasks to support discovery, sharing, reproducibility and collaboration across different labs at Brown and beyond. The Behavioral Task Hub serves as a central and open registry of behavioral tasks, their provenance and deployment details. ",
+          "description1": "All behavioral tasks are welcome! The task registry data is hosted at <b><a href=\"https://github.com/brown-ccv/task-registry-data\" style=\"color: #0D7369;\">CCV GitHub</a></b>.  To add a new task or request a fix to an existing one, navigate to the issues tab in the <b><a href=\"https://github.com/brown-ccv/task-registry-data\" style=\"color: #0D7369;\">github repository</a></b>, select <i>new issue</i> and choose the template to open a new task for adding a new task to the hub, or <i>file a bug report</i> for any other issue/request."
         },
         "Design": {
           "title": "2 Design Process",
           "description": "The first step was to create a JavaScript Github action to fetch the new issues/tasks submitted, validate and consolidate them into XML files. This is the backend API of the web app.",
           "description1": "For the frontend, I used Vue js. The main part of the website is the good search platform, which lets you have an interactive experience with exploring the behavioral tasks at Brown labs. We spent most time on deciding the way to efficiently display the task information to the website users. After careful thoughts, we went ahead with the table view and a sidebar to have the search and filter options. As the number of the tasks in the registry could increase over time as people register, we thought a table is the best view to showcase multiple items."
+        },
+        "Conclusion": {
+          "title": "3 Conclusion",
+          "description": "This project forced me to learn a lot about how I can create JavaScript actions for Github and automate mundane tasks like converting issues into XML files. This was also my first time using Vue js, through which I was exposed to Vuex store, routers and using lodash functions to make filtering over objects simpler.",
+          "description1": "This was a summer internship experience during COVID which helped me refine my communication skills and helped me realize the importance of not going down the rabbit hole when you can ask your office colleagues who have gone through a similar experience."
         }
       }
     },
@@ -174,8 +188,8 @@
       "parts": {
         "Overview": {
           "title": "1 Overview",
-          "description": "For our UI/UX class’s iterative design project, we, a team of 4 students, designed an app for a startup from TechCrunch’s <a target=\"blank\" style=\"color: blue;\"  href=\"https://techcrunch.com/2020/08/25/here-are-the-94-companies-from-y-combinators-summer-2020-demo-day-2/\"> YCombinator’s Day Summer Demo list</a> based only on the startup’s concept. Throughout the project, we took no inspiration from any design work that the startup has already done.",
-          "description1": "We chose to design a mobile application for <a target=\"blank\" style=\"color: blue;\" href=\"https://ilk.io/\">Ilk</a>, a startup that seeks to provide safer childcare solutions for parents during the COVID-19 pandemic by matching families in a childcare pod to a caregiver. "
+          "description": "For our UI/UX class’s iterative design project, we, a team of 4 students, designed an app for a startup from TechCrunch’s <b><a target=\"blank\" style=\"color: #0D7369;\"  href=\"https://techcrunch.com/2020/08/25/here-are-the-94-companies-from-y-combinators-summer-2020-demo-day-2/\"> YCombinator’s Day Summer Demo list</a></b> based only on the startup’s concept. Throughout the project, we took no inspiration from any design work that the startup has already done.",
+          "description1": "We chose to design a mobile application for <b><a target=\"blank\" style=\"color: #0D7369;\" href=\"https://ilk.io/\">Ilk</a></b>, a startup that seeks to provide safer childcare solutions for parents during the COVID-19 pandemic by matching families in a childcare pod to a caregiver. "
         },
         "Design": {
           "title": "",
@@ -196,14 +210,14 @@
         },
         "Wireframing": {
           "title": "5 Wireframing",
-          "description": "After discussing our respective sketches, we combined our ideas to create a unified low-fidelity wireframe for the app which you can <a target=\"blank\" style=\"color: blue;\" href=\"https://www.figma.com/file/WvfgeZ6JOrtJQUbhArXM9F/Ilk-Low-Fidelity-Wireframe?node-id=0%3A1\">check out on Figma here</a>. ",
-          "description1": "We then created a <a target=\"blank\" style=\"color: blue;\" href=\"https://www.figma.com/file/PWMIs4mByOQMGvLHGAp3Ic/Iterative-Design-pre-crit?node-id=0%3A1\">first draft of a high-fidelity prototype</a>. We wanted to focus on the parent and caregiver matching process, followedby ways they could interact:",
+          "description": "After discussing our respective sketches, we combined our ideas to create a unified low-fidelity wireframe for the app which you can <b><a target=\"blank\" style=\"color: #0D7369;\" href=\"https://www.figma.com/file/WvfgeZ6JOrtJQUbhArXM9F/Ilk-Low-Fidelity-Wireframe?node-id=0%3A1\">check out on Figma here</a></b>. ",
+          "description1": "We then created a <b><a target=\"blank\" style=\"color: #0D7369;\" href=\"https://www.figma.com/file/PWMIs4mByOQMGvLHGAp3Ic/Iterative-Design-pre-crit?node-id=0%3A1\">first draft of a high-fidelity prototype</a></b>. We wanted to focus on the parent and caregiver matching process, followedby ways they could interact:",
           "description2": "We then presented our high fidelity mockup to our class. After briefly explaining our startup concept, our peers interacted with our prototype. We received lots of feedback:"
         },
         "User": {
           "title": "6 User Testing",
-          "description": "We used a remote user testing service <a target=\"blank\" style=\"color: blue;\" href=\"https://www.usertesting.com/\">UserTesting.com</a> to conduct our usability tests, where we were able to test with 3 users. The only user specification was that they needed to be a parent. We wanted to focus on the sign up process as well as navigation, so we included a few different tasks which are listed below. We were curious to see if users liked the app’s concept, mainly focusing on parents, and how intuitive they found the matching process and communicating with people in the app.",
-          "description1": "We then created a <a target=\"blank\" style=\"color: blue;\" href=\"https://www.figma.com/file/PWMIs4mByOQMGvLHGAp3Ic/Iterative-Design-pre-crit?node-id=0%3A1\">first draft of a high-fidelity prototype</a>. We wanted to focus on the parent and caregiver matching process, followedby ways they could interact:",
+          "description": "We used a remote user testing service <b> <a target=\"blank\" style=\"color: #0D7369;\" href=\"https://www.usertesting.com/\">UserTesting.com </a> </b> to conduct our usability tests, where we were able to test with 3 users. The only user specification was that they needed to be a parent. We wanted to focus on the sign up process as well as navigation, so we included a few different tasks which are listed below. We were curious to see if users liked the app’s concept, mainly focusing on parents, and how intuitive they found the matching process and communicating with people in the app.",
+          "description1": "We then created a <b><a target=\"blank\" style=\"color: #0D7369;\" href=\"https://www.figma.com/file/PWMIs4mByOQMGvLHGAp3Ic/Iterative-Design-pre-crit?node-id=0%3A1\">first draft of a high-fidelity prototype</a></b>. We wanted to focus on the parent and caregiver matching process, followedby ways they could interact:",
           "description2": "We then presented our high fidelity mockup to our class. After briefly explaining our startup concept, our peers interacted with our prototype. We received lots of feedback:"
         },
         "conclusion": {

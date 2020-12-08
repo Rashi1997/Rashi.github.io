@@ -18,7 +18,7 @@ export default {
 
 <style>
 .navb {
-  background-color: #f4ece6;
+  background-color: #e9e9e9;
   position: sticky;
   top: 0;
 }
@@ -29,7 +29,7 @@ export default {
 .rotate {
   width: 2rem;
   height: 2rem;
-  background-color: blue;
+  background-color: #0D7369;
   animation: rotate 3s infinite linear both;
 }
 

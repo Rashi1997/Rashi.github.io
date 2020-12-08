@@ -135,11 +135,39 @@
         target="blank"
         href="https://agile-crag-93359.herokuapp.com/"
         pill
-        variant="outline-dark_hue"
+        variant="dark_hue"
+        class="mr-2"
       >
-        VIEW DEMO</b-button
+        VISIT WEBSITE</b-button
+      >
+      <b-button
+        target="blank"
+        href="https://github.com/Rashi1997/Search-Github"
+        pill
+        variant="dark_hue"
+        class="mr-2"
+      >
+        SOURCE CODE</b-button
+      >
+      <b-button
+        target="blank"
+        href="https://github.com/Rashi1997/Search-Github/blob/main/README.md"
+        pill
+        variant="dark_hue"
+        class="mr-2"
+      >
+        VIEW DOCS</b-button
       >
     </div>
+
+    <div
+      class="title"
+      v-html="$t('projects.repohub.parts.Conclusion.title')"
+    ></div>
+    <div
+      class="subtitle"
+      v-html="$t('projects.repohub.parts.Conclusion.description')"
+    ></div>
   </div>
 </template>
 
@@ -157,7 +185,7 @@ export default {
   display: none !important;
 }
 .bg-color {
-  background-color: #f4ece6;
+  background: linear-gradient(0deg, rgba(42, 183, 202, 0.3), #e9e9e9);
   height: 100%;
   padding-right: 10vw;
   padding-top: 10vh;
@@ -165,7 +193,7 @@ export default {
 }
 .bar {
   height: 120px;
-  border-left: solid 1.2rem blue;
+  border-left: solid 1.2rem #0D7369;
   display: flex;
   align-items: center;
   padding-left: 15vw;
@@ -174,7 +202,7 @@ export default {
   font-weight: 600;
   font-style: bold;
   font-size: 2.5rem;
-  color: blue;
+  color: #0D7369;
 }
 .title {
   margin-left: 20vw;
@@ -202,7 +230,7 @@ export default {
   align-content: center;
 }
 .ar {
-  width: 25vw;
+  width: 20vw;
   height: 45vh;
 }
 .sg {
@@ -210,8 +238,8 @@ export default {
   height: 40vh;
 }
 .logo {
-  width: 8vw;
-  height: 12vh;
+  width: 6vw;
+  height: 9vh;
 }
 @media only screen and (max-width: 768px) {
   .bg-color {

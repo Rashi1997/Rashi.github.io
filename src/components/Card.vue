@@ -19,8 +19,9 @@
               <b-row>
                 <img
                   :src="require(`@/assets/${item.src}`)"
-                  width="300"
-                  height="200"
+                  width="158"
+                  height="280"
+                  class="ml-auto"
                 />
               </b-row>
             </b-col>
@@ -56,20 +57,20 @@ a.custom-card:hover {
 }
 .bar {
   padding-left: 1rem;
-  border-left: 1rem solid blue;
+  border-left: 1rem solid #0D7369;
   margin-left: -1.29rem;
   height: 3rem;
 }
 .projecttitle {
-  color: blue;
+  color: #0D7369;
   overflow-wrap: break-word;
   font-family: poppins, sans-serif;
   font-weight: 600;
   font-style: bold;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 .des {
   margin: 1rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 </style>

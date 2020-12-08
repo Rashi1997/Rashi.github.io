@@ -48,7 +48,7 @@ export default {
     // a computed getter
     bgcolor: function() {
       // `this` points to the vm instance
-      if (this.name !== "Home") {
+      if (this.name === "About") {
         return "navb-white";
       } else return "navb-color";
     },
@@ -71,10 +71,10 @@ export default {
 .navbar-light .nav-item .nav-link:active,
 .navbar-light .nav-item .nav-link:focus,
 .navbar-light .nav-item:hover .nav-link {
-  color: blue !important;
+  color: #0d7369 !important;
 }
 .nav-item > a:hover {
-  color: blue !important;
+  color: #0d7369 !important;
 }
 .name {
   color: black;
@@ -87,7 +87,7 @@ export default {
   padding-bottom: 0.5rem;
 }
 .navb-color {
-  background-color: #f4ece6;
+  background-color: #e9e9e9;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -99,14 +99,16 @@ export default {
   z-index: 10;
 }
 .navitem {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  color: black !important;
   margin: 0.5rem;
+  font-weight: 600;
 }
 .rotate {
   margin-left: 3rem;
   width: 2rem;
   height: 2rem;
-  background-color: blue;
+  background-color: #0d7369;
   animation: rotate 3s infinite linear both;
 }
 
