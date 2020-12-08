@@ -9,6 +9,9 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+    meta: {
+      title: "Rashi Dhar",
+    },
   },
   {
     path: "/about",
@@ -18,6 +21,9 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
+    meta: {
+      title: "ABOUT | Rashi Dhar",
+    },
   },
   {
     path: "/work",
@@ -27,6 +33,9 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Work.vue"),
+    meta: {
+      title: "WORK | Rashi Dhar",
+    },
   },
   {
     path: "/cupcake-redesign",
@@ -36,6 +45,9 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Redesign.vue"),
+    meta: {
+      title: "WORK | Cupcake Redesign",
+    },
   },
   {
     path: "/ilk-design",
@@ -45,6 +57,9 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Design.vue"),
+    meta: {
+      title: "WORK | Ilk Design",
+    },
   },
   {
     path: "/beehive",
@@ -54,6 +69,9 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Taskhub.vue"),
+    meta: {
+      title: "WORK | Beehive",
+    },
   },
   {
     path: "/repo-hub",
@@ -63,6 +81,9 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Repohub.vue"),
+    meta: {
+      title: "WORK | Repohub",
+    },
   },
 ];
 
@@ -72,4 +93,8 @@ const router = new VueRouter({
   routes,
 });
 
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title || "Rashi Dhar";
+  next();
+});
 export default router;
